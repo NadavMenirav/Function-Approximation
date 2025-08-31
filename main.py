@@ -14,6 +14,7 @@ def main():
 
     k = np.arange(0, N + 1)
     x = 2 * k / N - 1
+    y = f(x)
 
 if __name__ == '__main__':
     main()
