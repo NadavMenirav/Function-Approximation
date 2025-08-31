@@ -16,7 +16,7 @@ def main():
     x = 2 * k / N - 1 # Array of x values
     y = f(x) # Array of y values
 
-    V = np.vander(x) # The vandermonde matrix
+    V = np.vander(x, increasing = True) # The vandermonde matrix
 
 if __name__ == '__main__':
     main()
