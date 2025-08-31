@@ -18,5 +18,7 @@ def main():
 
     V = np.vander(x, increasing = True) # The vandermonde matrix
 
+    a = np.linalg.solve(V, y) # Solving for the coefficients
+
 if __name__ == '__main__':
     main()
