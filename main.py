@@ -11,13 +11,9 @@ def main():
     # the function f(x) = 1/(x^2+1)
 
     N = 5 # The degree of the polynomial
-    x = [] # Array of the x values
-    y = [] # Array of the y values
 
-    for k in range(N):
-        x.append(2 * k - 1)
-        y.append(f(x[k]))
-
+    k = np.arange(0, N + 1)
+    x = 2 * k / N - 1
 
 if __name__ == '__main__':
     main()
